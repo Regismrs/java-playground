@@ -1,6 +1,7 @@
 package com.in28minutes.functionalprogramming;
 
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class FunctionalProgramming {
@@ -18,5 +19,10 @@ public class FunctionalProgramming {
         words.stream()
                 .map(word -> word.toLowerCase())
                 .forEach(word -> System.out.println(word));
+
+        // 3. Create a new list with the triple of each number
+        System.out.println("\nTriple of numbers:");
+        List<Number> numbers = IntStream.range(1, 11).map(n -> n * 3).boxed().collect(Collectors.toList());
+        System.out.println(numbers);
     }
 }
