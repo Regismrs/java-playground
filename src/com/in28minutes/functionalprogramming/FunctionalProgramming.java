@@ -24,5 +24,20 @@ public class FunctionalProgramming {
         System.out.println("\nTriple of numbers:");
         List<Number> numbers = IntStream.range(1, 11).map(n -> n * 3).boxed().collect(Collectors.toList());
         System.out.println(numbers);
+
+        // 4. Refactor exercise 1 using reference methods
+        System.out.println("\nEven Squares, using reference methods:");
+        IntStream.range(1, 11)
+                .filter(FunctionalProgramming::isEven)
+                .map(FunctionalProgramming::numberSquare)
+                .forEach(System.out::println);
+    }
+
+    public static boolean isEven(Integer number) {
+        return number%2 == 0;
+    }
+
+    public static Integer numberSquare(Integer number) {
+        return number * number;
     }
 }
