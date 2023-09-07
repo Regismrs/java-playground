@@ -1,0 +1,18 @@
+
+L	java:S106
+"+Replace this use of System.out by a logger.(øÒŠäúÿÿÿÿ8üºÅ¼¦1
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(†ÂİŞ8ÿºÅ¼¦1
+G	java:S106"+Replace this use of System.out by a logger.(†ÂİŞ8ÿºÅ¼¦1
+G	java:S106"+Replace this use of System.out by a logger.(ˆß¶•8ÿºÅ¼¦1
+]
+java:S1612"@Replace this lambda with method reference 'String::toLowerCase'.(éè»›8»Å¼¦1
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(™¿úí8»Å¼¦1
+G	java:S106"+Replace this use of System.out by a logger.(™¿úí8»Å¼¦1
+G	java:S106"+Replace this use of System.out by a logger.(™Õö¥8»Å¼¦1
+o
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(•éŸ·8‚»Å¼¦1
+G	java:S106"+Replace this use of System.out by a logger.(ŞÒ©Ø8‚»Å¼¦1
+G	java:S106"+Replace this use of System.out by a logger.(ÔÌ£×8ƒ»Å¼¦1
+L	java:S106!"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8ó†Ê¼¦1
